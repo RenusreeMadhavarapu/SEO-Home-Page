@@ -15,7 +15,7 @@
 - Media Queries
 
 ### Project Deploy Link
-[SEOHome]()
+[SEOHome](https://seohomepage.netlify.app/)
 
 ### Author
 [Renusree Madhavarapu](https://github.com/RenusreeMadhavarapu)
