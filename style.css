@@ -270,3 +270,10 @@ button.nav-button.btn{
         width:400px;
     }
 }
+
+@media (max-width:450px){
+
+    .heading-text{
+        font-size:200%;
+    }
+}
