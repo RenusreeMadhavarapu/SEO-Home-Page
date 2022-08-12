@@ -111,7 +111,7 @@ div.banner-container{
    
 }
 
-img.illu{
+img[alt="illustration"]{
     right:0%;
 position:absolute;
 margin-top:50px;
@@ -150,6 +150,7 @@ button.nav-button.btn{
     position:absolute;
     margin-top:450px;
     left:10%;
+    cursor:pointer;
 }
 
 /* media queries for banner section */
@@ -172,14 +173,14 @@ button.nav-button.btn{
         left:5%;
     }
 
-    img.illu{
+    img[alt="illustration"]{
 
         width:600px;
     }
 }
 @media (max-width:1100px){
 
-    img.illu{
+    img[alt="illustration"]{
 
         width:500px;
     }
@@ -215,7 +216,7 @@ button.nav-button.btn{
 @media (max-width:850px){
 
 
-    img.illu{
+    img[alt="illustration"]{
 
         margin-top:300px;
     }
@@ -266,7 +267,7 @@ button.nav-button.btn{
     .heading-text{
         font-size:250%;
     }
-    img.illu{
+    img[alt="illustration"]{
         width:400px;
     }
 }
