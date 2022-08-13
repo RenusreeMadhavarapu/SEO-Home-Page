@@ -1,35 +1,37 @@
 body{
 
     margin:0;
+    padding:0;
 
     font-family: 'Poppins';
 }
 
-/* Nav container Section */
+/* Navbar Section */
 
 .navbar-container{
    margin-top:25px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items:center;
 
 }
 img.logo{
-    margin-left:100px;
+    margin-left:50px;
     width:120px;
 }
 
 .list{
   color:  rgb(169,169,169);
   display: flex;
-  justify-content: space-around;
   list-style-type: none;
+  margin-right:50px;
+  
   
 
 }
 .list-item{
 
-    padding-right:60px;
+    margin-right:60px;
 }
 
 
@@ -48,16 +50,10 @@ button.nav-button{
     color:rgba(255, 255, 255, 0.877);
     font-size:large;
     cursor:pointer;
+    margin-right:50px;
 }
 
 /* media queries for nav section */
-    @media (max-width:1030px){
-
-        img.logo{
-
-            margin-left:50px;
-        }
-    }
 
     @media(min-width:1000px){
         div.menu{
@@ -74,6 +70,7 @@ button.nav-button{
                 font-size:30px;
                 color:rgb(90,86,179);
                 cursor:pointer;
+                margin-right:50px;
 
             }
 
@@ -87,15 +84,9 @@ button.nav-button{
                 display:none;
             }
 
-            .navbar-container{
+            
 
-                justify-content:space-around;
-            }
-
-            img.logo{
-
-                margin-left:0px;
-            }
+           
         }
 
 
@@ -107,7 +98,7 @@ button.nav-button{
 div.banner-container{
 
    position:relative;
-    margin-left:50px;
+   
    
 }
 
@@ -121,7 +112,7 @@ margin-top:50px;
 
 .heading-text {
     position:absolute;
-    left:10%;
+    left:3%;
    width:30%;
    text-align:start;
   margin-top:100px;
@@ -139,7 +130,7 @@ margin-top:50px;
     color:rgb(169,169,169);
     position:absolute;
     margin-top:370px;
-    left:10%;
+    left:3%;
     
     
 
@@ -149,7 +140,7 @@ button.nav-button.btn{
 
     position:absolute;
     margin-top:450px;
-    left:10%;
+    left:3%;
     cursor:pointer;
 }
 
