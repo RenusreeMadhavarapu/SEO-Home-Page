@@ -6,6 +6,11 @@ body{
     font-family: 'Poppins';
 }
 
+html,body{
+    max-width:100%;
+    overflow-x:hidden;
+}
+
 /* Navbar Section */
 
 .navbar-container{
